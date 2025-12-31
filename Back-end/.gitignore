@@ -1,0 +1,47 @@
+# General ignore files for Visual Studio and .NET Core
+
+[Dd]ebug/
+[Rr]elease/
+# bin/ and obj/ are usually excluded by default by the template, but good to be explicit
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.config.user
+
+# Project files
+*.sqlite
+*.db
+gastos.db
+controle_gastos.db
+
+# Environment files
+.env
+
+# NPM / Node.js
+# Exclude node_modules for both frontend and any backend tools
+node_modules/
+dist/
+build/
+.cache/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.parcel-cache
+.vite/
+
+# Mac/OSX files
+.DS_Store
+
+# Linux files
+*~
+
+# Misc
+*.log
+
+# You might want to remove this if you need to commit your local database file for review
+# (But generally, you want to ignore it)
+# db.sqlite
